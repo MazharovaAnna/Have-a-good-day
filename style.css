@@ -52,7 +52,6 @@ p {
   padding-bottom: 80px;
   font-size: 15px;
   font-weight: 600;
-
 }
 /*Nav
 ===================*/
@@ -64,7 +63,7 @@ p {
   text-decoration: none;
   font-weight: 600;
   font-size: 13px;
-  
+
   color: #fff;
   padding: 0 15px;
 }
@@ -191,7 +190,7 @@ p {
   background-color: #eeeeef;
   display: flex;
   flex-wrap: wrap;
- justify-content: center;
+  justify-content: center;
 }
 .template--one {
   background-color: #f5f5f5;
@@ -250,7 +249,6 @@ p {
   font-weight: 600;
   font-family: "PT Sans", sans-serif;
   text-transform: uppercase;
-
 }
 .website__title:after {
   display: block;
@@ -261,7 +259,6 @@ p {
   margin: 20px auto;
 }
 .website__items {
-  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -297,27 +294,22 @@ p {
 }
 /*Media
 ===================*/
-@media (max-width: 700px){
-/*Template
+@media (max-width: 700px) {
+  /*Template
 ===================*/
-.template{
-  padding: 40px 50px;
-}
-.template__item {
-  padding: 15px 10px;
-  
-}
-/*Website
+  .template {
+    padding: 40px 50px;
+    
+  }
+  .template__item {
+    padding: 15px 10px;
+  }
+  /*Website
 ===================*/
-.website__items{
-  padding: 0 10px;
+  .website__items {
+    padding: 0 10px;
+  }
 }
-
-
-
-}
-
-
 
 @media (max-width: 600px) {
   /*People
@@ -334,48 +326,45 @@ p {
 ===================*/
   .template__item {
     padding: 10px 15px;
-    
+    text-align: center;
   }
   .template__text:before {
     width: 140px;
+    align-items: center;
   }
   /*Card
 ===================*/
   .card__item {
     /* width: 100%; */
-    
+    text-align: center;
   }
 }
 @media (max-width: 400px) {
-/*Header
+  /*Header
 ===================*/
-.header__inner{
-  padding: 60px 0 60px 0;
-}
-.header__name{
-  font-size: 24px;
-}
-.header__title{
-  font-size: 30px;
-}
-.header__subtitle{
-  font-size: 12px;
-  padding-bottom: 40px;
-}
-/*Nav
+  .header__inner {
+    padding: 60px 0;
+  }
+  .header__name {
+    font-size: 24px;
+  }
+  .header__title {
+    font-size: 30px;
+    padding: 50px;
+  }
+  .header__subtitle {
+    font-size: 12px;
+    padding-bottom: 50px;
+  }
+  /*Nav
 ===================*/
-.nav__link{
-  padding: 0 8px;
-  font-size: 12px;
-}
+  .nav__link {
+    padding: 0 8px;
+    font-size: 12px;
+  }
   /*Template
 ===================*/
-.template__items{
-  
-}
   .template__text:before {
     width: 80px;
   }
-
-
 }
