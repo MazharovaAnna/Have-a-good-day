@@ -50,6 +50,9 @@ p {
 .header__subtitle {
   font-family: "PT Sans", sans-serif;
   padding-bottom: 80px;
+  font-size: 15px;
+  font-weight: 600;
+
 }
 /*Nav
 ===================*/
@@ -315,6 +318,28 @@ p {
   }
 }
 @media (max-width: 400px) {
+/*Header
+===================*/
+.header__inner{
+  padding: 50px 0 60px 0;
+}
+.header__name{
+  font-size: 30px;
+}
+.header__title{
+  font-size: 32px;
+}
+.header__subtitle{
+  font-size: 12px;
+  padding-bottom: 40px;
+}
+/*Nav
+===================*/
+.nav__link{
+  padding: 0 10px;
+  font-size: 12px;
+}
+
   /*Template
 ===================*/
 
