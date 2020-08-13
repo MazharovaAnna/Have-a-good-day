@@ -324,10 +324,10 @@ p {
   padding: 50px 0 60px 0;
 }
 .header__name{
-  font-size: 30px;
+  font-size: 24px;
 }
 .header__title{
-  font-size: 32px;
+  font-size: 30px;
 }
 .header__subtitle{
   font-size: 12px;
@@ -336,7 +336,7 @@ p {
 /*Nav
 ===================*/
 .nav__link{
-  padding: 0 10px;
+  padding: 0 8px;
   font-size: 12px;
 }
 
