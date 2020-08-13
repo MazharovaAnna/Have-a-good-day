@@ -323,6 +323,9 @@ p {
 
   /*Template
 ===================*/
+  .template__inner {
+    text-align: center;
+  }
   .template__item {
     padding: 10px 15px;
     text-align: center;
@@ -348,7 +351,7 @@ p {
   /*Header
 ===================*/
   .header__inner {
-    padding: 60px 0;
+    padding: 60px 0 70 0;
   }
   .header__name {
     font-size: 24px;
