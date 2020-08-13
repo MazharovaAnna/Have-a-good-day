@@ -79,15 +79,24 @@ p {
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
 }
+.btn:hover {
+  background-color: #48a292;
+}
 .btn--min {
   width: 100px;
   height: 35px;
+}
+.btn--min:hover {
+  background-color: #48a292;
 }
 .btn--grey {
   background-color: #d2d5da;
   color: #fff;
   width: 100px;
   height: 35px;
+}
+.btn--grey:hover {
+  background-color: #b8bdc4;
 }
 /*People
 ===================*/
